@@ -5,7 +5,7 @@ class Solution:
         
         for i in range(len(nums)):
             # print(dic)
-            if k-nums[i] in dic and dic[k-nums[i]] !=0:
+            if k-nums[i] in dic and dic[k-nums[i]] >0:
                 count += 1
                 dic[k-nums[i]] -= 1
                 
