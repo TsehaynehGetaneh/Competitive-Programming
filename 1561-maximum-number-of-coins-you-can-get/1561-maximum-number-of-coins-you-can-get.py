@@ -3,14 +3,14 @@ class Solution:
         piles.sort()
         total = 0
         
-        i = 0
-        j = len(piles) -1
-        while i < j-1:
+        count = 0
+        for i in range(len(piles)-2,-1,-2):
             
-            total += piles[j-1]
+            total += piles[i]
+            count += 1
             
-            i += 1
-            j -= 2
+            if count == len(piles)//3:
+                break
             
         return total
             
