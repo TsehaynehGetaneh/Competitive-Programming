@@ -9,22 +9,14 @@ class Solution:
             return head.next
         
         
-        curr = head
-        i = 0
-        while curr:
-            i += 1
-            curr = curr.next
+        slow,fast = head,head
+        while fast and fast.next:
+            fast = fast.next.next
             
-        j = 0
-        cur = head
-        while cur and cur.next:
-            if j + 1 == i//2:
-                cur.next = cur.next.next
-                cur = cur.next
-                break
-            
-            cur = cur.next
-            j += 1
+            if not fast or not fast.next:
+                slow.next = slow.next.next
+            else:
+                slow = slow.next
         
         return head
         
