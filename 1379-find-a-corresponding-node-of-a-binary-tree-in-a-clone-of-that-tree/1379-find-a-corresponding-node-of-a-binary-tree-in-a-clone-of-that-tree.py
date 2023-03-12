@@ -12,19 +12,19 @@ class Solution:
     
         def helper(original,cloned,tar):
             nonlocal node
+            
             if not cloned:
                 return
 
             if cloned.val == target.val:
                 node = cloned
-                print("hey")
                 return
             else:
-                print("hey2")
                 helper(original,cloned.left,tar)
                 helper(original,cloned.right,tar)
                 
             return node
+        
         helper(original,cloned,target)
         return node
         
