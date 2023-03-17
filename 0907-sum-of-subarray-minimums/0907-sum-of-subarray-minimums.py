@@ -1,5 +1,6 @@
 class Solution:
     def sumSubarrayMins(self, arr: List[int]) -> int:
+        # more explanation on algomoster
         stack = []
         sum = 0
         curSum = 0
