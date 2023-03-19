@@ -11,11 +11,11 @@ class Solution:
         def dfs(node,count):
             nonlocal ans
             if not node:
-                return 0
+                return 
             
             if not node.left and not node.right:
                 ans = min(ans,count)
-                # print(ans)
+            print(count)   
                 
             dfs(node.left,count+1)
             dfs(node.right,count+1)
