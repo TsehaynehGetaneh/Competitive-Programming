@@ -13,13 +13,12 @@ class ThroneInheritance:
 
     def getInheritanceOrder(self) -> List[str]:
         ans = []
-        visited = set()
         def dfs(parent):
-            nonlocal ans,visited
-            visited.add(parent)
+            nonlocal ans
             
             if parent not in self.deaths:
                 ans.append(parent)
+                
             for child in self.graph[parent]:
                 dfs(child)
         
