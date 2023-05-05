@@ -38,7 +38,6 @@ class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int:
         while len(stones) > 1:
             self.HeapSort(stones,len(stones))
-            print(stones)
             if stones[-2] == stones[-1]:
                 stones.pop()
                 stones.pop()
