@@ -19,7 +19,6 @@ class Solution:
 
     # Function to build a Heap from array.
     def buildHeap(self, arr, n):
-        # code here
         for i in range(n//2 -1, -1, -1):
             self.heapify(arr, n, i)
 
