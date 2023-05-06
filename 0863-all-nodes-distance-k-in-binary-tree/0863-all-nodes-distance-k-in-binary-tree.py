@@ -43,10 +43,13 @@ class Solution:
                 
         dfs(root)
         
+        
+        # if k == 0
         if k == 0:
             return [target.val]
         
-        # BFS
+        
+        # BFS if k is not zero
         queue = deque()
         queue.append((0,target.val))
         visited = set()
