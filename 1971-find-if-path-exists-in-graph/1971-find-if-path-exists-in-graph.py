@@ -20,7 +20,7 @@ class Solution:
         for a,b in edges:
             union(a,b)
             
-        print(parents)
+        
         return representative(source) == representative(destination)
         
         
