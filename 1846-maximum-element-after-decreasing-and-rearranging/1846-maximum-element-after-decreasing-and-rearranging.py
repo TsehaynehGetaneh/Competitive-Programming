@@ -9,7 +9,7 @@ class Solution:
             else:
                 if abs(arr[i]-arr[i-1]) > 1:
                     arr[i] = arr[i-1] + 1
-        # print(arr)           
+                 
         return max(arr)
                     
                 
