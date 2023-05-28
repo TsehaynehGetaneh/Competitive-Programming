@@ -8,7 +8,7 @@ class Solution:
             return 1
         
         i = 1
-        while i <= n:
+        while i <= n//2:
             idx1 = 2*i
             idx2 = 2*i + 1
             
