@@ -1,6 +1,5 @@
 class Solution:
     def getKth(self, lo: int, hi: int, k: int) -> int:
-        # memo = {}
         
         def dp(num,steps):
             if num == 1:
@@ -18,8 +17,7 @@ class Solution:
         for i in range(lo,hi+1):
             count = dp(i,0)
             res.append((count,i))
-            # count = 0
             
         res.sort()
-        print(res)
+        
         return res[k-1][1]
