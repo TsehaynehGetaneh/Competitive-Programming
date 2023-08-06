@@ -19,7 +19,6 @@ class Solution:
         min_sum = inf
         for i in range(len(matrix[0])):
             sub_sum = dp(0,i)
-            print(sub_sum)
             min_sum = min(min_sum,sub_sum)
           
         return min_sum
