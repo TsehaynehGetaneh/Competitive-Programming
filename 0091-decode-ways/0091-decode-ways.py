@@ -10,12 +10,12 @@ class Solution:
                 return 0
             
             res = dp(idx+1)
-            
+            print(idx,res,cache)
             if (idx+1 < len(s) and (s[idx] == "1" or s[idx] == "2" and s[idx+1] in "0123456")):
                 res += dp(idx+2)
                 
             cache[idx] = res
-                
+            print("after",res,cache)  
             return res
         
         return dp(0)
