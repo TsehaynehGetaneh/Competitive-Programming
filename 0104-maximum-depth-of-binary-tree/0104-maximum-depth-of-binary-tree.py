@@ -6,20 +6,17 @@
 #         self.right = right
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
-        level_order = defaultdict(list)
         
-        def traversal(level,node):
+        def inorder(node):
             if not node:
-                return
+                return 0
             
-            level_order[level].append(node.val)
+            left = 1 + inorder(node.left)
+            right = 1 + inorder(node.right)
             
-            traversal(level+1,node.left)
-            traversal(level+1,node.right)
-            
-        traversal(0,root)
+            return max(left,right)
         
-        return len(level_order.keys())
+        return inorder(root)
         
         
         
