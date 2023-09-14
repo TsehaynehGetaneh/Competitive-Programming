@@ -12,7 +12,7 @@ class Solution:
             
         for i in range(len(arr)):
             for j in range(i+1, len(arr)):
-                if not (arr[i] & arr[j]):
+                if (arr[i] & arr[j]) == 0:
                     max_len = max(max_len, len(words[i]) * len(words[j]))
         return max_len
                 
