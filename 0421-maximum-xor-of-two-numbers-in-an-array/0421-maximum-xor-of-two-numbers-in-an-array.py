@@ -5,12 +5,12 @@ class Solution:
         max_xor = 0
         
         for Num in nums:
-            num = [Num>>i & 1 for i in range(L-1,-1,-1)] # convert Num to binary list
-            ptr1 = trie # pointer for inserting Num into trie
-            ptr2 = trie # pointer for finding maximum XOR with Num
-            xor = 0 # XOR value of Num with another number in trie
+            num = [Num>>i & 1 for i in range(L-1,-1,-1)] 
+            ptr1 = trie 
+            ptr2 = trie
+            xor = 0
             for bit in num:
-                toggle = 1 - bit # opposite bit of current bit
+                toggle = 1 - bit 
                 if bit:
                     if ptr1[bit]:
                         ptr1 = ptr1[bit]
@@ -40,6 +40,6 @@ class Solution:
                 xor <<= 1 # shift xor to left by one bit
                 
             xor >>= 1 # remove the extra zero bit at the end
-            max_xor = max(max_xor,xor) # update max_xor if xor is larger
+            max_xor = max(max_xor,xor) 
             
         return max_xor
