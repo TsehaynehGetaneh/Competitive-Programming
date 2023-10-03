@@ -8,7 +8,7 @@ class Solution:
             num = [Num>>i & 1 for i in range(L-1,-1,-1)] 
             ptr1 = trie 
             ptr2 = trie
-            xor = 0
+            xor = []
             for bit in num:
                 toggle = 1 - bit 
                 if bit:
@@ -20,9 +20,10 @@ class Solution:
                         
                     if ptr2[toggle]:
                         ptr2 = ptr2[toggle]
-                        xor |= 1 # add 1 to xor if toggle bit exists
+                        xor.append("1")
                     else:
                         ptr2 = ptr2[bit]
+                        xor.append("0")
                         
                 else:
                     if ptr1[bit]:
@@ -33,13 +34,17 @@ class Solution:
                         
                     if ptr2[toggle]:
                         ptr2 = ptr2[toggle]
-                        xor |= 1 # add 1 to xor if toggle bit exists
+                        xor.append("1")
                     else:
                         ptr2 = ptr2[bit]
-                
-                xor <<= 1 # shift xor to left by one bit
-                
-            xor >>= 1 # remove the extra zero bit at the end
+                        xor.append("0")
+                 
+            xor = int("".join(xor),2)
+            
             max_xor = max(max_xor,xor) 
             
         return max_xor
+    
+    
+    
+    
