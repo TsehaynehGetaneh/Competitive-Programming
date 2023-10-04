@@ -1,24 +1,19 @@
 class Solution:
     def removeDuplicates(self, s: str, k: int) -> str:
         stack = []
-        hmap = defaultdict(int)
         
         for char in s:
-            stack.append(char)
-            hmap[char] += 1
-            current_char = char
+            if stack and stack[-1][0] == char:
+                stack[-1] = (stack[-1][0],stack[-1][1]+1)
+            else:
+                stack.append((char,1))
+               
+            while stack and stack[-1][1] == k:
+                stack.pop()
+        
+        res = []
+        for char,count in stack:
+            res.append(char*count)
+        return "".join(res)
             
-            while hmap[current_char] >= k and stack[len(stack)-k:].count(current_char)==k:
-                j = 0
-                while j < k:
-                    hmap[current_char] -= 1
-                    stack.pop()
-                    j += 1
-                    
-                if len(stack)>=k:   
-                    current_char = stack[-1]
-                else:
-                    break
-                
-        return "".join(stack)
                 
