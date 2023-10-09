@@ -5,9 +5,8 @@ class Solution:
         match_hash = 0
         power = 0
         for i in range(len(needle)-1,-1,-1):
-            if i < len(needle):
-                hash_val_1 = ord(needle[i]) - ord("a") + 1
-                pattern_hash += (hash_val_1 * 27**power)
+            hash_val_1 = ord(needle[i]) - ord("a") + 1
+            pattern_hash += (hash_val_1 * 27**power)
                 
             if i < len(haystack):
                 hash_val_2 = ord(haystack[i]) - ord("a") + 1
