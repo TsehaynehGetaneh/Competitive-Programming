@@ -22,17 +22,15 @@ class Solution:
         for i in range(len(haystack)):
             # poll first operation
             hash_val_first = ord(haystack[i]) - ord("a") + 1
-            poll_first = match_hash - (hash_val_first * 27**(len(needle)-1))
-            match_hash = poll_first
+     
+            match_hash  -= (hash_val_first * 27**(len(needle)-1))
             
             # add last operation
-            if i+len(needle) < len(haystack):
+            if i + len(needle) < len(haystack):
                 hash_val_last = ord(haystack[i+ len(needle)]) - ord("a") + 1
-                add_last = match_hash*27 + (hash_val_last)
-                match_hash = add_last
+                match_hash = match_hash*27 + (hash_val_last)
             
             if match_hash == pattern_hash:
-                print(i,pattern_hash, match_hash)
                 return i+1
             
         return -1
