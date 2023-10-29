@@ -28,7 +28,8 @@ class Solution:
                     rank[rootX] += 1
                 
         for a,b in edges:
-            union(a,b)
+            if root[a] != root[b]:
+                union(a,b)
             
         return find(source) == find(destination)
             
