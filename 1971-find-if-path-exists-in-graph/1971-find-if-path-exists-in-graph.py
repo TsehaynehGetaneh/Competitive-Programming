@@ -1,39 +1,33 @@
 class Solution:
     def validPath(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
-        parents = [i for i in range(n)]
-        rank = [1] *n
+        if source == destination:
+            return True        
         
+        graph = defaultdict(list)
         
-        def representative(x):
-            if parents[x] == x:
-                return x
-            
-            # path compression
-            parents[x] = representative(parents[x])
-            
-            return parents[x]
-        
-        def union(x,y):
-            parx = representative(x)
-            pary = representative(y)
-            
-            if parx != pary:
-                if rank[parx] < rank[pary]:
-                    parents[parx] = pary
-                
-                elif rank[parx] > rank[pary]:
-                    parents[pary] = parx
-                    
-                else:
-                    parents[pary] = parx
-                    rank[parx] += 1
-                
-                
         for a,b in edges:
-            union(a,b)
+            graph[a].append(b)
+            graph[b].append(a)
             
+        is_found = False
         
-        return representative(source) == representative(destination)
+        def dfs(node,visited):
+            nonlocal is_found
+            
+            visited.add(node)
+            
+            if node == destination:
+                is_found = True
+                return
+            
+            for neighbour in graph[node]:
+                if neighbour not in visited:
+                    dfs(neighbour,visited)
+                    
+            return is_found
+        
+        return dfs(source,set())
+            
         
         
         
