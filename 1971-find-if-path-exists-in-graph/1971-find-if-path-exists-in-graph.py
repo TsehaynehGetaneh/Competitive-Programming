@@ -1,32 +1,29 @@
 class Solution:
     def validPath(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
-        if source == destination:
-            return True        
+        root = [i for i in range(n)]
         
-        graph = defaultdict(list)
+        def find(x):
+            if x == root[x]:
+                return x
+            
+            if x != root[x]:
+                root[x] = find(root[x])
+                
+            return root[x]
         
+        def union(x,y):
+            rootX = find(x)
+            rootY = find(y)
+            
+            if rootX != rootY:
+                root[rootX] = rootY
+                
         for a,b in edges:
-            graph[a].append(b)
-            graph[b].append(a)
+            union(a,b)
             
-        is_found = False
+        return find(source) == find(destination)
+            
         
-        def dfs(node,visited):
-            nonlocal is_found
-            
-            visited.add(node)
-            
-            if node == destination:
-                is_found = True
-                return
-            
-            for neighbour in graph[node]:
-                if neighbour not in visited:
-                    dfs(neighbour,visited)
-                    
-            return is_found
-        
-        return dfs(source,set())
             
         
         
