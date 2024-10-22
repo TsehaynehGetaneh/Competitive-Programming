@@ -11,6 +11,7 @@ LeetCode, HackerRank, CodeForce... Solutions!
 | [0303-range-sum-query-immutable](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0303-range-sum-query-immutable) |
 | [0643-maximum-average-subarray-i](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0643-maximum-average-subarray-i) |
 | [1256-rank-transform-of-an-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1256-rank-transform-of-an-array) |
+| [1603-running-sum-of-1d-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1603-running-sum-of-1d-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -50,4 +51,5 @@ LeetCode, HackerRank, CodeForce... Solutions!
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0303-range-sum-query-immutable) |
+| [1603-running-sum-of-1d-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1603-running-sum-of-1d-array) |
 <!---LeetCode Topics End-->
