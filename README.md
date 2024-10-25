@@ -10,6 +10,7 @@ LeetCode, HackerRank, CodeForce... Solutions!
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0303-range-sum-query-immutable](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0303-range-sum-query-immutable) |
 | [0643-maximum-average-subarray-i](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0643-maximum-average-subarray-i) |
+| [0729-my-calendar-i](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0729-my-calendar-i) |
 | [1256-rank-transform-of-an-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1256-rank-transform-of-an-array) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1603-running-sum-of-1d-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1603-running-sum-of-1d-array) |
@@ -35,6 +36,7 @@ LeetCode, HackerRank, CodeForce... Solutions!
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0729-my-calendar-i](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0729-my-calendar-i) |
 ## Sliding Window
 |  |
 | ------- |
@@ -52,6 +54,7 @@ LeetCode, HackerRank, CodeForce... Solutions!
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0303-range-sum-query-immutable) |
+| [0729-my-calendar-i](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0729-my-calendar-i) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -69,4 +72,12 @@ LeetCode, HackerRank, CodeForce... Solutions!
 |  |
 | ------- |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+## Segment Tree
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0729-my-calendar-i) |
+## Ordered Set
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0729-my-calendar-i) |
 <!---LeetCode Topics End-->
