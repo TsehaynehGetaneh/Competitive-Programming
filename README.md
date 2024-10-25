@@ -11,6 +11,7 @@ LeetCode, HackerRank, CodeForce... Solutions!
 | [0303-range-sum-query-immutable](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0303-range-sum-query-immutable) |
 | [0643-maximum-average-subarray-i](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0643-maximum-average-subarray-i) |
 | [1256-rank-transform-of-an-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1256-rank-transform-of-an-array) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1603-running-sum-of-1d-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1603-running-sum-of-1d-array) |
 ## Hash Table
 |  |
@@ -46,6 +47,7 @@ LeetCode, HackerRank, CodeForce... Solutions!
 | [0003-longest-substring-without-repeating-characters](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0344-reverse-string](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0344-reverse-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0438-find-all-anagrams-in-a-string) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 ## Design
 |  |
 | ------- |
@@ -59,4 +61,12 @@ LeetCode, HackerRank, CodeForce... Solutions!
 |  |
 | ------- |
 | [0908-middle-of-the-linked-list](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0908-middle-of-the-linked-list) |
+## Depth-First Search
+|  |
+| ------- |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+## Trie
+|  |
+| ------- |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 <!---LeetCode Topics End-->
