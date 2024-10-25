@@ -9,8 +9,7 @@ class MyCalendar:
             self.books.append((start,end))
             
             return True
-        # sort
-        # self.books.sort()
+    
 
         for s, e in self.books:
             if not (end <= s or start >= e):
