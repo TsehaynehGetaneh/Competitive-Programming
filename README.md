@@ -51,6 +51,7 @@ LeetCode, HackerRank, CodeForce... Solutions!
 | [0344-reverse-string](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0344-reverse-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0438-find-all-anagrams-in-a-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [3337-count-substrings-starting-and-ending-with-given-character](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/3337-count-substrings-starting-and-ending-with-given-character) |
 ## Design
 |  |
 | ------- |
@@ -84,5 +85,10 @@ LeetCode, HackerRank, CodeForce... Solutions!
 ## Math
 |  |
 | ------- |
+| [3337-count-substrings-starting-and-ending-with-given-character](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/3337-count-substrings-starting-and-ending-with-given-character) |
 | [3367-find-the-sum-of-encrypted-integers](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/3367-find-the-sum-of-encrypted-integers) |
+## Counting
+|  |
+| ------- |
+| [3337-count-substrings-starting-and-ending-with-given-character](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/3337-count-substrings-starting-and-ending-with-given-character) |
 <!---LeetCode Topics End-->
