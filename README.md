@@ -14,6 +14,7 @@ LeetCode, HackerRank, CodeForce... Solutions!
 | [1256-rank-transform-of-an-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1256-rank-transform-of-an-array) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1603-running-sum-of-1d-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1603-running-sum-of-1d-array) |
+| [3367-find-the-sum-of-encrypted-integers](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/3367-find-the-sum-of-encrypted-integers) |
 ## Hash Table
 |  |
 | ------- |
@@ -80,4 +81,8 @@ LeetCode, HackerRank, CodeForce... Solutions!
 |  |
 | ------- |
 | [0729-my-calendar-i](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0729-my-calendar-i) |
+## Math
+|  |
+| ------- |
+| [3367-find-the-sum-of-encrypted-integers](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/3367-find-the-sum-of-encrypted-integers) |
 <!---LeetCode Topics End-->
