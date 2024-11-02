@@ -56,6 +56,7 @@ LeetCode, HackerRank, CodeForce... Solutions!
 | [0648-replace-words](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0648-replace-words) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [2580-circular-sentence](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/2580-circular-sentence) |
 | [3337-count-substrings-starting-and-ending-with-given-character](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/3337-count-substrings-starting-and-ending-with-given-character) |
 ## Design
 |  |
