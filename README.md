@@ -71,6 +71,7 @@ LeetCode, HackerRank, CodeForce... Solutions!
 ## Linked List
 |  |
 | ------- |
+| [0725-split-linked-list-in-parts](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0725-split-linked-list-in-parts) |
 | [0908-middle-of-the-linked-list](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0908-middle-of-the-linked-list) |
 ## Depth-First Search
 |  |
