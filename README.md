@@ -58,6 +58,7 @@ LeetCode, HackerRank, CodeForce... Solutions!
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2580-circular-sentence](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/2580-circular-sentence) |
 | [3337-count-substrings-starting-and-ending-with-given-character](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/3337-count-substrings-starting-and-ending-with-given-character) |
+| [3451-string-compression-iii](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/3451-string-compression-iii) |
 ## Design
 |  |
 | ------- |
