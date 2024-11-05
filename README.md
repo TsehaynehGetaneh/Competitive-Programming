@@ -12,6 +12,7 @@ LeetCode, HackerRank, CodeForce... Solutions!
 | [0643-maximum-average-subarray-i](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0643-maximum-average-subarray-i) |
 | [0648-replace-words](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0648-replace-words) |
 | [0729-my-calendar-i](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0729-my-calendar-i) |
+| [1137-height-checker](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1137-height-checker) |
 | [1256-rank-transform-of-an-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1256-rank-transform-of-an-array) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1603-running-sum-of-1d-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1603-running-sum-of-1d-array) |
@@ -27,6 +28,7 @@ LeetCode, HackerRank, CodeForce... Solutions!
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0088-merge-sorted-array) |
+| [1137-height-checker](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1137-height-checker) |
 | [1256-rank-transform-of-an-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1256-rank-transform-of-an-array) |
 ## Two Pointers
 |  |
@@ -104,4 +106,8 @@ LeetCode, HackerRank, CodeForce... Solutions!
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0020-valid-parentheses) |
+## Counting Sort
+|  |
+| ------- |
+| [1137-height-checker](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1137-height-checker) |
 <!---LeetCode Topics End-->
