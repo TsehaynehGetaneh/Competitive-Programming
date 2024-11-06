@@ -16,6 +16,7 @@ LeetCode, HackerRank, CodeForce... Solutions!
 | [1256-rank-transform-of-an-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1256-rank-transform-of-an-array) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1603-running-sum-of-1d-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1603-running-sum-of-1d-array) |
+| [3291-find-if-array-can-be-sorted](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/3291-find-if-array-can-be-sorted) |
 | [3367-find-the-sum-of-encrypted-integers](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/3367-find-the-sum-of-encrypted-integers) |
 ## Hash Table
 |  |
@@ -30,6 +31,7 @@ LeetCode, HackerRank, CodeForce... Solutions!
 | [0088-merge-sorted-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0088-merge-sorted-array) |
 | [1137-height-checker](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1137-height-checker) |
 | [1256-rank-transform-of-an-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1256-rank-transform-of-an-array) |
+| [3291-find-if-array-can-be-sorted](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/3291-find-if-array-can-be-sorted) |
 ## Two Pointers
 |  |
 | ------- |
@@ -110,4 +112,8 @@ LeetCode, HackerRank, CodeForce... Solutions!
 |  |
 | ------- |
 | [1137-height-checker](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1137-height-checker) |
+## Bit Manipulation
+|  |
+| ------- |
+| [3291-find-if-array-can-be-sorted](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/3291-find-if-array-can-be-sorted) |
 <!---LeetCode Topics End-->
