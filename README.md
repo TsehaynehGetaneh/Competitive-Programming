@@ -16,6 +16,7 @@ LeetCode, HackerRank, CodeForce... Solutions!
 | [1256-rank-transform-of-an-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1256-rank-transform-of-an-array) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1603-running-sum-of-1d-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1603-running-sum-of-1d-array) |
+| [1940-maximum-xor-for-each-query](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1940-maximum-xor-for-each-query) |
 | [3291-find-if-array-can-be-sorted](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/3291-find-if-array-can-be-sorted) |
 | [3367-find-the-sum-of-encrypted-integers](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/3367-find-the-sum-of-encrypted-integers) |
 ## Hash Table
@@ -73,6 +74,7 @@ LeetCode, HackerRank, CodeForce... Solutions!
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/0303-range-sum-query-immutable) |
 | [1603-running-sum-of-1d-array](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1603-running-sum-of-1d-array) |
+| [1940-maximum-xor-for-each-query](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1940-maximum-xor-for-each-query) |
 ## Linked List
 |  |
 | ------- |
@@ -115,5 +117,6 @@ LeetCode, HackerRank, CodeForce... Solutions!
 ## Bit Manipulation
 |  |
 | ------- |
+| [1940-maximum-xor-for-each-query](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/1940-maximum-xor-for-each-query) |
 | [3291-find-if-array-can-be-sorted](https://github.com/TsehaynehGetaneh/Competitive-Programming/tree/master/3291-find-if-array-can-be-sorted) |
 <!---LeetCode Topics End-->
